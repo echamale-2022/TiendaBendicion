@@ -110,7 +110,4 @@ public class Libros {
                "Nombre del autor: " + nombreCompleto + " " +
                "Precio del libro: " + precioLibro; 
     }
-    public String hola(){
-        return "hola";
-    }
 }
