@@ -3,6 +3,10 @@ package org.edwarchamale.view;
 import org.edwarchamale.controller.ClientesController;
 import java.util.Scanner;
 
+/**
+ *
+ * @author Edwar
+ */
 public class MenuClientes {
     ClientesController cController = new ClientesController();
     Scanner sc = new Scanner(System.in);

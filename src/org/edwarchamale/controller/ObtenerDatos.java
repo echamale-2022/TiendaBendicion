@@ -1,13 +1,16 @@
 package org.edwarchamale.controller;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+
 /**
  *
  * @author Edwar
  */
 public class ObtenerDatos {
     BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-    public String nombres(){
+
+    public String nombres() {
         String nombres = null;
         try {
             nombres = bf.readLine();
@@ -17,7 +20,8 @@ public class ObtenerDatos {
         }
         return nombres;
     }
-    public String apellidos(){
+
+    public String apellidos() {
         String apellidos = null;
         try {
             apellidos = bf.readLine();
@@ -27,7 +31,8 @@ public class ObtenerDatos {
         }
         return apellidos;
     }
-    public String email(){
+
+    public String email() {
         String email = null;
         try {
             email = bf.readLine();
@@ -37,7 +42,8 @@ public class ObtenerDatos {
         }
         return email;
     }
-    public String tituloLibro(){
+
+    public String tituloLibro() {
         String tituloLibro = null;
         try {
             tituloLibro = bf.readLine();

@@ -1,4 +1,5 @@
 package org.edwarchamale.model;
+
 /**
  *
  * @author Edwar
@@ -10,19 +11,19 @@ public class Clientes {
     private String apellidosCliente;
     private int telefono;
     private String email;
-    //Variables para las vistas
+    // Variables para las vistas
     private int idClientes;
     private String nombreCompleto;
     private int no_telefono;
     private String correo;
 
     // Constructor vacio
-    public Clientes(){
+    public Clientes() {
 
     }
 
     // Constructor lleno
-    public Clientes(int idCliente, String nombresCliente, String apellidosCliente, int telefono, String email){
+    public Clientes(int idCliente, String nombresCliente, String apellidosCliente, int telefono, String email) {
         this.idCliente = idCliente;
         this.nombresCliente = nombresCliente;
         this.apellidosCliente = apellidosCliente;
@@ -31,7 +32,7 @@ public class Clientes {
     }
 
     // Constructor para la vista
-    public Clientes(int idClientes, String nombreCompleto, int no_telefono, String correo){
+    public Clientes(int idClientes, String nombreCompleto, int no_telefono, String correo) {
         this.idClientes = idClientes;
         this.nombreCompleto = nombreCompleto;
         this.no_telefono = no_telefono;
@@ -111,11 +112,11 @@ public class Clientes {
         this.correo = correo;
     }
 
-    //Vista 
-    public String VistaClientes(){
-        return "Id cliente: " + idClientes + " " + 
-               "Nombre completo: " + nombreCompleto + " " +
-               "No. telefono: " + no_telefono + " " +
-               "Email: " + correo;
+    // Vista
+    public String VistaClientes() {
+        return "Id cliente: " + idClientes + " " +
+                "Nombre completo: " + nombreCompleto + " " +
+                "No. telefono: " + no_telefono + " " +
+                "Email: " + correo;
     }
 }

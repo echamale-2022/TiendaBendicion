@@ -1,4 +1,5 @@
 package org.edwarchamale.model;
+
 /**
  *
  * @author Edwar
@@ -70,8 +71,8 @@ public class Autor {
     }
 
     // Vista
-    public String VistaAutores(){
+    public String VistaAutores() {
         return "Id autor: " + id_autor + " " +
-               "Nombre del autor: " + nombreAutor;
+                "Nombre del autor: " + nombreAutor;
     }
 }

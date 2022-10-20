@@ -2,6 +2,10 @@ package org.edwarchamale.view;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author Edwar
+ */
 public class MenuPrincipal {
     Scanner sc = new Scanner(System.in);
 

@@ -7,9 +7,13 @@ import java.sql.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ *
+ * @author Edwar
+ */
 public class OrdenesController {
     Scanner sc = new Scanner(System.in);
-    
+
     public void listarOrdenes() {
         try {
             PreparedStatement ps = Conexion.getInstance().getConexion()

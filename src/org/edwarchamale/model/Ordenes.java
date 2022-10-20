@@ -1,4 +1,5 @@
 package org.edwarchamale.model;
+
 /**
  *
  * @author Edwar
@@ -31,7 +32,8 @@ public class Ordenes {
     }
 
     // Constructor para la vista
-    public Ordenes(int id_orden, String nombreCompleto, String tituloLibro, String fechaHoraCompra, double totalCompra) {
+    public Ordenes(int id_orden, String nombreCompleto, String tituloLibro, String fechaHoraCompra,
+            double totalCompra) {
         this.id_orden = id_orden;
         this.nombreCompleto = nombreCompleto;
         this.tituloLibro = tituloLibro;
@@ -120,11 +122,11 @@ public class Ordenes {
     }
 
     // Vista
-    public String VistaOrdenes(){
+    public String VistaOrdenes() {
         return "Id orden: " + id_orden + " " +
-               "Nombre completo: " + nombreCompleto + " " + 
-               "Titulo del libro: " + tituloLibro + " " +
-               "Fecha y hora de la compra: " + fechaHoraCompra + " " +
-               "Total de la compra: " + totalCompra;
+                "Nombre completo: " + nombreCompleto + " " +
+                "Titulo del libro: " + tituloLibro + " " +
+                "Fecha y hora de la compra: " + fechaHoraCompra + " " +
+                "Total de la compra: " + totalCompra;
     }
 }

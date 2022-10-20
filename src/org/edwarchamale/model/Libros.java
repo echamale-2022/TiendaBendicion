@@ -1,7 +1,5 @@
 package org.edwarchamale.model;
 
-import javax.sound.sampled.SourceDataLine;
-
 /**
  *
  * @author Edwar
@@ -102,12 +100,12 @@ public class Libros {
     public void setNombreCompleto(String nombreCompleto) {
         this.nombreCompleto = nombreCompleto;
     }
-    
+
     // Vista
-    public String VistaLibros(){
+    public String VistaLibros() {
         return "Id editorial: " + idEditorialV + " " +
-               "Titulo del libro: " + tituloLibroV + " " +
-               "Nombre del autor: " + nombreCompleto + " " +
-               "Precio del libro: " + precioLibro; 
+                "Titulo del libro: " + tituloLibroV + " " +
+                "Nombre del autor: " + nombreCompleto + " " +
+                "Precio del libro: " + precioLibro;
     }
 }

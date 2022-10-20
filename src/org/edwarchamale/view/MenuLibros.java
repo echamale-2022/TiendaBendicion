@@ -3,6 +3,10 @@ package org.edwarchamale.view;
 import org.edwarchamale.controller.LibrosController;
 import java.util.Scanner;
 
+/**
+ *
+ * @author Edwar
+ */
 public class MenuLibros {
     Scanner sc = new Scanner(System.in);
 

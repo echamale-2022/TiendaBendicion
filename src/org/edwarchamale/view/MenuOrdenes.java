@@ -3,6 +3,10 @@ package org.edwarchamale.view;
 import org.edwarchamale.controller.OrdenesController;
 import java.util.Scanner;
 
+/**
+ *
+ * @author Edwar
+ */
 public class MenuOrdenes {
     Scanner sc = new Scanner(System.in);
 
