@@ -1,4 +1,7 @@
 package org.edwarchamale.model;
+
+import javax.sound.sampled.SourceDataLine;
+
 /**
  *
  * @author Edwar
@@ -106,5 +109,8 @@ public class Libros {
                "Titulo del libro: " + tituloLibroV + " " +
                "Nombre del autor: " + nombreCompleto + " " +
                "Precio del libro: " + precioLibro; 
+    }
+    public String hola(){
+        return "hola";
     }
 }
